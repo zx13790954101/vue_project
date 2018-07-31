@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<select class="select">
+			<option value="第一">第一</option>
+			<option value="第二">第二</option>
+		</select>
+		
+		<form>
+			<input type="radio" name="radio2" value="radio2" />
+			<input type="radio" name="radio2" value="radio2"  />
+	
+			
+		</form>
+		
+		<form>
+			
+			<input type="checkbox" name="checkbox2"  value="check" />
+			<input type="checkbox" name="checkbox2" value="check" />
+		</form>
+		<script type="text/javascript" src="jquery.min.js" ></script>
+		<script type="text/javascript" src="src/public.js" ></script>
+		<script type="text/javascript" src="src/index.js" ></script>
+		<script>
+			$(function(){
+				
+				$(".select option").eq(1).attr("selected","selected");
+				
+			})
+		</script>
+	</body>
+</html>
